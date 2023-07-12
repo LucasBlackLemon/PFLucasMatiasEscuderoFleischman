@@ -174,11 +174,13 @@ img {
   border: 3px solid black;
   margin: 5px;
   box-shadow: inset black 0.1em 0.1em 0.1em 0.1em;
+  transition: 0.8s;
 }
 
 .item:hover {
   filter: grayscale(1);
-  transition: 0.5s;
+  transform: scale(1.2);
+  box-shadow: black 0.1em 0.1em 0.1em 0.1em;
 }
 
 .item1 {
@@ -298,7 +300,7 @@ footer i.fa-brands.fa-telegram:hover {
 }
 
 footer i.fa-brands.fa-instagram:hover {
-  color: rgb(205, 9, 143);
+  color: rgb(186, 12, 175);
   transition: all 0.5s;
   filter: blur(1px);
 }
