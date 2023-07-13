@@ -4,12 +4,12 @@
 }
 
 @font-face {
-    font-family: tattoo ;
+    font-family: tattoo;
     src: url(/fonts/tattoogoddemo-Regular.otf);
 }
 
 @font-face {
-    font-family: derechos ;
+    font-family: derechos;
     src: url(/fonts/BrevardDemoRegular.ttf);
 }
 
@@ -20,53 +20,53 @@ $color3: white;
 
 
 
-.navbar{
+.navbar {
     background-color: $color1;
 
-    .logofont{
-        font-family: infinity ;
+    .logofont {
+        font-family: infinity;
         font-size: 30px;
         margin-left: 40px;
         text-transform: uppercase;
         letter-spacing: 8px;
-    
-
     }
 
 
 
-    .collapse{
+
+
+    .collapse {
         justify-content: flex-end !important;
         margin-right: 10px;
-    
-    }
-    
 
-    .nav-link{
+    }
+
+
+    .nav-link {
         color: $color3 !important;
-        font-family: tattoo ;
+        font-family: tattoo;
         padding: 15px !important;
         font-size: 20px;
     }
-    
-    .nav-link:hover{
+
+    .nav-link:hover {
         color: $color2 !important;
         transition: all 0.5s;
         filter: blur(1px);
-    
+
     }
-    
-    .navbar-toggler i{
+
+    .navbar-toggler i {
         color: $color3;
     }
-    
+
 
 }
 
 
 
 
-img{
+img {
     width: 80px;
     height: 70px;
     padding-right: 10px;
@@ -74,7 +74,7 @@ img{
 }
 
 
-.contenedor{
+.contenedor {
     background-image: url(./img/20221211_220034_0000.png) !important;
     background-position: center;
     background-size: cover;
@@ -83,19 +83,19 @@ img{
     align-items: center !important;
     flex-direction: column;
 
-    h2{
+    h2 {
         padding: 30px;
         text-align: center;
         text-transform: uppercase;
         font-family: infinity;
         font-size: 50px;
         color: $color3;
-        text-shadow:$color1 0.1em 0.1em 0.2em;
+        text-shadow: $color1 0.1em 0.1em 0.2em;
         margin-bottom: 80px;
     }
-    
-    
-    .embed-responsive.embed-responsive-16by9{
+
+
+    .embed-responsive.embed-responsive-16by9 {
         width: 75%;
         height: auto;
         border: 20px double $color1;
@@ -109,48 +109,48 @@ img{
 
 
 
-.galeriae{
+.galeriae {
     width: 97%;
     min-height: 600px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 250px);
-    grid-template-areas: 
-                        "img1e img2e img3e"
-                        "img1e img2e img3e"
-                        "img4e img2e img5e"
-                        "img4e img2e img5e";
+    grid-template-areas:
+        "img1e img2e img3e"
+        "img1e img2e img3e"
+        "img4e img2e img5e"
+        "img4e img2e img5e";
     margin-bottom: 20%;
 
-    .item1e{
+    .item1e {
         background-image: url(./img/estudio/AMERICAN-TATTOO-01.jpg);
         background-size: cover;
         background-position: center;
         grid-area: img1e;
     }
-    
-    .item2e{
+
+    .item2e {
         background-image: url(./img/estudio/acf584156354f7ff7bcf46ffc367a6f1.jpg);
         background-size: cover;
-        background-position: center; 
+        background-position: center;
         grid-area: img2e;
     }
-    
-    .item3e{
+
+    .item3e {
         background-image: url(./img/estudio/1959262.jpg);
         background-size: cover;
         background-position: center;
         grid-area: img3e;
-        }
-    
-    .item4e{
+    }
+
+    .item4e {
         background-image: url(./img/estudio/como-abrir-estudio-tatuajes.jpg);
         background-size: cover;
         background-position: center;
         grid-area: img4e;
     }
-    
-    .item5e{
+
+    .item5e {
         background-image: url(./img/estudio/IMG-20191102-WA0022.jpg);
         background-size: cover;
         background-position: center;
@@ -163,136 +163,137 @@ img{
 
 
 
-.galeriad{
+.galeriad {
     width: 97%;
     min-height: 600px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 250px);
-    grid-template-areas: 
-                        "img1d img2d img3d"
-                        "img4d img2d img6d"
-                        "img4d img2d img6d"
-                        "img4d img5d img6d";
+    grid-template-areas:
+        "img1d img2d img3d"
+        "img4d img2d img6d"
+        "img4d img2d img6d"
+        "img4d img5d img6d";
     margin-bottom: 20%;
 
-    .item1d{
+    .item1d {
         background-image: url(./img/diseños/beso.jpg);
         background-size: cover;
         background-position: center;
         grid-area: img1d;
     }
-    
-    .item2d{
+
+    .item2d {
         background-image: url(./img/diseños/manos.jpg);
         background-size: cover;
-        background-position: center; 
+        background-position: center;
         grid-area: img2d;
     }
-    
-    .item3d{
+
+    .item3d {
         background-image: url(./img/diseños/mononoke.jpg);
         background-size: cover;
         background-position: center;
         grid-area: img3d;
-        }
-    
-    .item4d{
+    }
+
+    .item4d {
         background-image: url(./img/diseños/abeja.jpg);
         background-size: cover;
         background-position: center;
         grid-area: img4d;
     }
-    
-    .item5d{
+
+    .item5d {
         background-image: url(./img/diseños/ojo.jpg);
         background-size: cover;
         background-position: center;
         grid-area: img5d;
     }
-    
-    .item6d{
+
+    .item6d {
         background-image: url(./img/diseños/rosas.jpg);
         background-size: cover;
         background-position: center;
         grid-area: img6d;
     }
-    
+
 
 }
 
 
 
-.galeria{
+.galeria {
     width: 97%;
     min-height: 600px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 250px);
-    grid-template-areas: 
-                        "img1 img2 img3 img3"
-                        "img1 img4 img5 img6"
-                        "img7 img7 img5 img8";
+    grid-template-areas:
+        "img1 img2 img3 img3"
+        "img1 img4 img5 img6"
+        "img7 img7 img5 img8";
 }
 
-.item{
+.item {
     border-radius: 20px;
-    border: 3px solid $color1;   
+    border: 3px solid $color1;
     margin: 5px;
     box-shadow: inset $color1 0.1em 0.1em 0.1em 0.1em;
     transition: 0.8s;
 }
 
-.item:hover{
+.item:hover {
     filter: grayscale(1);
     transform: scale(1.2);
     box-shadow: $color1 0.1em 0.1em 0.1em 0.1em;
 
 }
 
-.item1{
+
+.item1 {
     background-image: url(./img/tatuajes/fantasma.jpg);
     background-size: cover;
     background-position: center;
     grid-area: img1;
 }
 
-.item2{
+.item2 {
     background-image: url(./img/tatuajes/camara.jpg);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     grid-area: img2;
 }
 
-.item3{
+.item3 {
     background-image: url(./img/tatuajes/pluma.jpg);
     background-size: cover;
     background-position: center;
     grid-area: img3;
-    }
+}
 
-.item4{
+.item4 {
     background-image: url(./img/tatuajes/fuego.jpg);
     background-size: cover;
     background-position: center;
     grid-area: img4;
 }
 
-.item5{
+.item5 {
     background-image: url(./img/tatuajes/awka\ liwen.jpg);
     background-size: cover;
     background-position: center;
     grid-area: img5;
 }
 
-.item6{
+.item6 {
     background-image: url(./img/tatuajes/pajaros.jpg);
     background-size: cover;
     background-position: center;
     grid-area: img6;
 }
 
-.item7{
+.item7 {
     background-image: url(./img/tatuajes/breath\ in.jpg);
     background-size: cover;
     background-position: center;
@@ -300,7 +301,7 @@ img{
 
 }
 
-.item8{
+.item8 {
     background-image: url(./img/tatuajes/luna\ sagi.jpg);
     background-size: cover;
     background-position: center;
@@ -308,7 +309,7 @@ img{
 }
 
 
-.subir{
+.subir {
     position: fixed;
     right: 40px;
     bottom: 40px;
@@ -316,19 +317,19 @@ img{
     padding: 10px;
     box-shadow: 0 0 5px $color3, 0 0 5px $color3;
     color: $color3;
-    border-radius: 10px;    
+    border-radius: 10px;
 
-    .subir:hover{
-        color: $color2 ;
+    .subir:hover {
+        color: $color2;
         transition: all 0.5s;
-        filter:brightness(80%)
+        filter: brightness(80%)
     }
-    
+
 
 }
 
 
-.nosotros{
+.nosotros {
     font-family: infinity;
     font-size: 50px;
     text-align: center;
@@ -345,36 +346,36 @@ img{
 }
 
 
-footer{
+footer {
     height: auto;
     width: 100%;
     background-color: $color1;
-    color: $color3 ;
+    color: $color3;
     text-align: center;
     font-size: 20px;
     font-family: derechos;
 
 }
 
-.redes{
+.redes {
     text-align: center;
 }
 
-footer i{
+footer i {
     color: $color3;
     font-size: 40px;
     letter-spacing: 80px;
-    text-shadow: 0 0 10px  whitesmoke ;
+    text-shadow: 0 0 10px whitesmoke;
     text-align: center;
 }
 
-footer i.fa-brands.fa-telegram:hover{
+footer i.fa-brands.fa-telegram:hover {
     color: rgb(54, 165, 244);
     transition: all 0.5s;
     filter: blur(1px);
 }
 
-footer i.fa-brands.fa-instagram:hover{
+footer i.fa-brands.fa-instagram:hover {
     color: rgb(186, 12, 175);
     transition: all 0.5s;
     filter: blur(1px);
@@ -382,49 +383,49 @@ footer i.fa-brands.fa-instagram:hover{
 
 
 
-@media only screen and (min-width:576px) and (max-width: 991px){
+@media only screen and (min-width:576px) and (max-width: 991px) {
     .navbar {
         flex-direction: column;
     }
 
-    .embed-responsive.embed-responsive-16by9{
+    .embed-responsive.embed-responsive-16by9 {
         width: 90%;
         height: auto;
         margin-bottom: 75px;
     }
 
-    .galeria{
+    .galeria {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(5, 200px);
-        grid-template-areas: 
-                            "img1 img2"
-                            "img1 img3"
-                            "img4 img5"
-                            "img6 img5"
-                            "img7 img8";
+        grid-template-areas:
+            "img1 img2"
+            "img1 img3"
+            "img4 img5"
+            "img6 img5"
+            "img7 img8";
         margin-bottom: 20%;
 
     }
 
-    .galeriad{
+    .galeriad {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(9, 200px);
-        grid-template-areas: 
-                            "img2d img3d"
-                            "img2d img3d"
-                            "img2d img5d"
-                            "img1d img5d"
-                            "img1d img4d"
-                            "img6d img4d"
-                            "img6d img4d"
-                            "img6d img4d"
-                            "img6d none";
+        grid-template-areas:
+            "img2d img3d"
+            "img2d img3d"
+            "img2d img5d"
+            "img1d img5d"
+            "img1d img4d"
+            "img6d img4d"
+            "img6d img4d"
+            "img6d img4d"
+            "img6d none";
         margin-bottom: 20%;
 
     }
 
 
-    footer{
+    footer {
         height: auto;
         width: 100%;
         background-color: $color1;
@@ -434,7 +435,7 @@ footer i.fa-brands.fa-instagram:hover{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-    footer{
+    footer {
         height: auto;
         width: 100%;
         background-color: $color1;
@@ -444,69 +445,69 @@ footer i.fa-brands.fa-instagram:hover{
         font-family: derechos;
     }
 
-    footer i{
+    footer i {
         color: $color3;
         font-size: 30px;
         letter-spacing: 40px;
-        text-shadow: 0 0 10px  whitesmoke ;
+        text-shadow: 0 0 10px whitesmoke;
         text-align: center;
     }
 
 }
 
-@media only screen and (min-width:280px) and (max-width: 575px){
-    
-    img{
+@media only screen and (min-width:280px) and (max-width: 575px) {
+
+    img {
         width: 40px;
         height: 35px;
         padding-right: 5px;
         margin-left: 5px;
     }
-    
-    .logofont{
+
+    .logofont {
         font-size: 15px;
         margin-left: 5px;
     }
 
-    ul{
-        
-        align-items:end;
+    ul {
+
+        align-items: end;
     }
 
-    .embed-responsive.embed-responsive-16by9{
+    .embed-responsive.embed-responsive-16by9 {
         width: 90%;
         height: auto;
     }
 
-    .galeria{
+    .galeria {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(5, 200px);
-        grid-template-areas: 
-                            "img1 img2"
-                            "img1 img3"
-                            "img4 img5"
-                            "img6 img5"
-                            "img7 img8";
+        grid-template-areas:
+            "img1 img2"
+            "img1 img3"
+            "img4 img5"
+            "img6 img5"
+            "img7 img8";
         margin-bottom: 20%;
     }
 
-    .galeriad{
+    .galeriad {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 200px);
-        grid-template-areas: 
-                            "img2d img3d"
-                            "img2d img5d"
-                            "img1d img4d"
-                            "img6d img4d";
+        grid-template-areas:
+            "img2d img3d"
+            "img2d img5d"
+            "img1d img4d"
+            "img6d img4d";
         margin-bottom: 20%;
 
     }
 
-    h2{
+    h2 {
         font-size: 35px;
     }
 
-    footer{
+    footer {
         height: auto;
         width: 100%;
         background-color: $color1;
@@ -516,19 +517,19 @@ footer i.fa-brands.fa-instagram:hover{
         font-family: derechos;
     }
 
-    footer i{
+    footer i {
         color: $color3;
         font-size: 15px;
         letter-spacing: 25px;
-        text-shadow: 0 0 10px  whitesmoke ;
+        text-shadow: 0 0 10px whitesmoke;
         text-align: center;
     }
 
 }
 
-@media only screen and (max-width:343px){
+@media only screen and (max-width:343px) {
 
-    img{
+    img {
         width: 40px;
         height: 35px;
         padding-right: 5px;
@@ -536,60 +537,60 @@ footer i.fa-brands.fa-instagram:hover{
         justify-content: start;
     }
 
-    .logofont{
+    .logofont {
         font-size: 12px;
         margin-left: 5px;
         justify-content: start;
 
     }
 
-    .navbar{
+    .navbar {
         justify-content: end;
     }
 
-    .navbar-toggler i{
+    .navbar-toggler i {
         justify-content: end;
         color: $color3;
     }
 
-    h2{
+    h2 {
         font-size: 30px;
     }
 
-    .galeria{
+    .galeria {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(10, 200px);
-        grid-template-areas: 
-                            "img1"
-                            "img1"
-                            "img2"
-                            "img3"
-                            "img4"
-                            "img5"
-                            "img5"
-                            "img6"
-                            "img7"
-                            "img8";
+        grid-template-areas:
+            "img1"
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "img5"
+            "img5"
+            "img6"
+            "img7"
+            "img8";
     }
 
-    .galeriad{
+    .galeriad {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(8, 200px);
-        grid-template-areas: 
-                            "img2d"
-                            "img2d"
-                            "img3d"
-                            "img5d"
-                            "img4d"
-                            "img4d"
-                            "img1d"
-                            "img6d";
+        grid-template-areas:
+            "img2d"
+            "img2d"
+            "img3d"
+            "img5d"
+            "img4d"
+            "img4d"
+            "img1d"
+            "img6d";
         margin-bottom: 20%;
 
     }
 
 
-    footer{
+    footer {
         height: auto;
         width: 100%;
         background-color: black;
@@ -599,11 +600,11 @@ footer i.fa-brands.fa-instagram:hover{
         font-family: derechos;
     }
 
-    footer i{
+    footer i {
         color: $color3;
         font-size: 15px;
         letter-spacing: 10px;
-        text-shadow: 0 0 10px  whitesmoke ;
+        text-shadow: 0 0 10px whitesmoke;
         text-align: center;
     }
 
@@ -611,43 +612,43 @@ footer i.fa-brands.fa-instagram:hover{
 
 
 @media only screen and (min-width:426px) and (max-width:768px) {
-    
-    .galeriae{
+
+    .galeriae {
         width: 97%;
-        min-height: 600px ;
-        display: grid ;
-        grid-template-columns: repeat(2, 1fr) ;
-        grid-template-rows: repeat(6, 250px) ;
-        grid-template-areas: 
-                            "img1e img2e"
-                            "img1e img2e"
-                            "img4e img3e"
-                            "img4e img3e"
-                            "img5e img5e"
-                            "img5e img5e"
-                            ;
-        margin-bottom: 20% ;
+        min-height: 600px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 250px);
+        grid-template-areas:
+            "img1e img2e"
+            "img1e img2e"
+            "img4e img3e"
+            "img4e img3e"
+            "img5e img5e"
+            "img5e img5e"
+        ;
+        margin-bottom: 20%;
     }
 
 }
 
 
-@media only screen and (min-width:320px) and (max-width:426px){
+@media only screen and (min-width:320px) and (max-width:426px) {
 
-    .galeriae{
+    .galeriae {
         width: 97%;
-        min-height: 600px ;
-        display: grid ;
-        grid-template-columns: repeat(1, 1fr) ;
-        grid-template-rows: repeat(5, 250px) ;
-        grid-template-areas: 
-                            "img1e"
-                            "img2e"
-                            "img3e"
-                            "img4e"
-                            "img5e"
-                            ;
-        margin-bottom: 20% ;
+        min-height: 600px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 250px);
+        grid-template-areas:
+            "img1e"
+            "img2e"
+            "img3e"
+            "img4e"
+            "img5e"
+        ;
+        margin-bottom: 20%;
     }
 
 
