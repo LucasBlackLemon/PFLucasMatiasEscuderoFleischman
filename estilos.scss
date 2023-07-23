@@ -457,16 +457,32 @@ footer i.fa-brands.fa-instagram:hover {
 
 @media only screen and (min-width:280px) and (max-width: 575px) {
 
+
+    .nosotros {       
+        font-size: 20px;
+        width: 90%;
+        justify-content: center !important;
+    }
+
+
+    .navbar-toggler i {
+        font-size: 20px;
+    }
+
     img {
-        width: 40px;
+        width: 38px;
         height: 35px;
-        padding-right: 5px;
-        margin-left: 5px;
+        padding-right: 2px;
+        margin-left: 2px;
     }
 
     .logofont {
-        font-size: 15px;
-        margin-left: 5px;
+        font-size: 10px;
+    }
+
+    .nav-link{
+        font-size: 16px !important;
+
     }
 
     ul {
@@ -475,7 +491,7 @@ footer i.fa-brands.fa-instagram:hover {
     }
 
     .embed-responsive.embed-responsive-16by9 {
-        width: 90%;
+        width: 90% !important;
         height: auto;
     }
 
@@ -504,7 +520,9 @@ footer i.fa-brands.fa-instagram:hover {
     }
 
     h2 {
-        font-size: 35px;
+        font-size: 25px !important;
+        padding: none !important;
+
     }
 
     footer {
@@ -512,17 +530,17 @@ footer i.fa-brands.fa-instagram:hover {
         width: 100%;
         background-color: $color1;
         color: $color3;
-        text-align: center;
-        font-size: 10px;
+        text-align: center !important;
+        font-size: 10px !important;
         font-family: derechos;
     }
 
     footer i {
         color: $color3;
-        font-size: 15px;
-        letter-spacing: 25px;
+        font-size: 15px !important;
+        letter-spacing: 25px !important;
         text-shadow: 0 0 10px whitesmoke;
-        text-align: center;
+        text-align: center !important;
     }
 
 }
@@ -532,14 +550,14 @@ footer i.fa-brands.fa-instagram:hover {
     img {
         width: 40px;
         height: 35px;
-        padding-right: 5px;
-        margin-left: 0;
+        padding-right: 2px !important;
+        margin-left: 0 !important;
         justify-content: start;
     }
 
     .logofont {
-        font-size: 12px;
-        margin-left: 5px;
+        font-size: 10px;
+        margin-left: 0%;
         justify-content: start;
 
     }
@@ -554,7 +572,7 @@ footer i.fa-brands.fa-instagram:hover {
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .galeria {
@@ -651,5 +669,15 @@ footer i.fa-brands.fa-instagram:hover {
         margin-bottom: 20%;
     }
 
+
+}
+
+
+@media only screen and (min-width:320px) and (max-width:487px) {
+
+    .logofont{
+        font-size: 15px !important;
+        
+    }
 
 }

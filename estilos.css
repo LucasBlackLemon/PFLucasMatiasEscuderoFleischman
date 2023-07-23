@@ -268,7 +268,8 @@ img {
   border: 10px solid transparent;
   border-radius: 80px;
   box-shadow: 0px 0px 80px 30px black;
-  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
 }
 
 footer {
@@ -353,21 +354,31 @@ footer i.fa-brands.fa-instagram:hover {
   }
 }
 @media only screen and (min-width: 280px) and (max-width: 575px) {
+  .nosotros {
+    font-size: 20px;
+    width: 90%;
+    justify-content: center !important;
+  }
+  .navbar-toggler i {
+    font-size: 20px;
+  }
   img {
-    width: 40px;
+    width: 38px;
     height: 35px;
-    padding-right: 5px;
-    margin-left: 5px;
+    padding-right: 2px;
+    margin-left: 2px;
   }
   .logofont {
-    font-size: 15px;
-    margin-left: 5px;
+    font-size: 10px;
+  }
+  .nav-link {
+    font-size: 16px !important;
   }
   ul {
     align-items: end;
   }
   .embed-responsive.embed-responsive-16by9 {
-    width: 90%;
+    width: 90% !important;
     height: auto;
   }
   .galeria {
@@ -383,36 +394,37 @@ footer i.fa-brands.fa-instagram:hover {
     margin-bottom: 20%;
   }
   h2 {
-    font-size: 35px;
+    font-size: 25px !important;
+    padding: none !important;
   }
   footer {
     height: auto;
     width: 100%;
     background-color: black;
     color: white;
-    text-align: center;
-    font-size: 10px;
+    text-align: center !important;
+    font-size: 10px !important;
     font-family: derechos;
   }
   footer i {
     color: white;
-    font-size: 15px;
-    letter-spacing: 25px;
+    font-size: 15px !important;
+    letter-spacing: 25px !important;
     text-shadow: 0 0 10px whitesmoke;
-    text-align: center;
+    text-align: center !important;
   }
 }
 @media only screen and (max-width: 343px) {
   img {
     width: 40px;
     height: 35px;
-    padding-right: 5px;
-    margin-left: 0;
+    padding-right: 2px !important;
+    margin-left: 0 !important;
     justify-content: start;
   }
   .logofont {
-    font-size: 12px;
-    margin-left: 5px;
+    font-size: 10px;
+    margin-left: 0%;
     justify-content: start;
   }
   .navbar {
@@ -423,7 +435,7 @@ footer i.fa-brands.fa-instagram:hover {
     color: white;
   }
   h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
   .galeria {
     grid-template-columns: repeat(1, 1fr);
@@ -475,5 +487,8 @@ footer i.fa-brands.fa-instagram:hover {
     margin-bottom: 20%;
   }
 }
-
-/*# sourceMappingURL=estilos.css.map */
+@media only screen and (min-width: 320px) and (max-width: 487px) {
+  .logofont {
+    font-size: 15px !important;
+  }
+}/*# sourceMappingURL=estilos.css.map */
